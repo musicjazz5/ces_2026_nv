@@ -208,6 +208,18 @@ def generate_report():
     )
     pdf.add_box("Strategic Partnerships (EDA/CAE)", partners_text, "green")
     
+    # Page 6: Healthcare & BioMedical AI (From Google Drive Files)
+    pdf.add_page()
+    pdf.section_title("5. Healthcare: AI Learns Laws of Nature")
+    
+    health_specs = (
+        "- BioNeMo Platform: Open-source models (Proteina, RNAPro) for drug discovery.\n"
+        "- Agentic AI: 'Hirable' agents for clinical trials and patient care.\n"
+        "- Lab Agents: Thermo Fisher Scientific building AI-powered lab infrastructure.\n"
+        "- Impact: The $4.9T Healthcare industry is adopting AI at 3x the speed of the U.S. economy."
+    )
+    pdf.add_box("BioMedical Revolution", health_specs, "blue")
+
     # Visual: Memory Bandwidth (Keep this as it's critical)
     pdf.image(chart_bw, x=20, w=170)
     pdf.multi_cell(0, 6, "HBM4 (22 TB/s) is the enabler for these 'Physical AI' workloads which require massive real-time data ingestion.")

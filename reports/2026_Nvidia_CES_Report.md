@@ -28,9 +28,16 @@ Nvidia moved beyond simple perception with **Alpamayo**, an AI model that brings
 *   **Adoption**: Mercedes-Benz has already committed to integrating Alpamayo into future vehicles.
 
 ### 3. Physical AI and Robotics
-A central theme of the keynote was **Physical AI**, referring to AI systems that interact with the real world.
-*   Nvidia is providing the full stack (chips, simplified training models, and simulation environments) to power robots.
-*   Partners include Boston Dynamics, Caterpillar, and NEURA Robotics.
+A central theme was **Physical AI**, where AI interacts with the real world (Robotics, AVs).
+*   **Three-Computer Platform**: Simulate (Cosmos) -> Train -> Deploy (Isaac/GR00T).
+*   **Ecosystem**: Industry leaders building on Isaac and GR00T.
+
+### 4. Healthcare & BioMedical AI (New)
+Nvidia released major updates for the $4.9T Healthcare industry, positioning AI as "Agentic" and capable of "Learning the Laws of Nature."
+*   **BioNeMo Platform**: Announcements of new open models (Proteina, RNAPro, CodonFM) to accelerate drug discovery.
+*   **Agentic AI in Healthcare**: "Hirable" agents for clinical conversation, clinical trials, and developing patient care plans.
+*   **Partnerships**: **Thermo Fisher Scientific** is building AI infrastructure to advance scientific instrumentation (Lab Agents).
+*   **Impact**: Healthcare is deploying AI at 3x the rate of the general U.S. economy.
 
 ### 4. Gaming and Consumer Tech
 While no new GeForce RTX cards were announced in the keynote, Nvidia revealed significant software updates:

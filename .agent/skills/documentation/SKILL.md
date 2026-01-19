@@ -49,3 +49,15 @@ If the user asks for a benchmark comparison (e.g., Rubin vs Blackwell):
 2.  Update the data in the python script.
 3.  Run the script to generate a visual report.
 
+## Multi-Source Integration (PDF/Drive)
+
+When integrating external data (e.g., Google Drive PDFs):
+1.  **Extract Content**: Use `pdftotext` to read the external files.
+    ```bash
+    pdftotext input.pdf - | head -n 50
+    ```
+2.  **Synthesize**: Identify new domains (e.g., Healthcare, Robotics) not covered in the initial report.
+3.  **Update Report**: Add dedicated sections to the Markdown report.
+4.  **Update Script**: Modify the python generation script to include new pages or metrics corresponding to the new data.
+
+
