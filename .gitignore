@@ -1,0 +1,17 @@
+# Ignore everything
+*
+# But not these
+!reports/
+!reports/**/*
+!outputs/
+!outputs/ces_charts/
+!outputs/ces_charts/**/*
+!outputs/comparison_charts/
+!outputs/comparison_charts/**/*
+!outputs/Benchmark_Report_CES_2026_*.pdf
+!outputs/Rubin_vs_Blackwell_Benchmark_*.pdf
+!.agent/
+!.agent/skills/
+!.agent/skills/documentation/
+!.agent/skills/documentation/**/*
+!.gitignore
